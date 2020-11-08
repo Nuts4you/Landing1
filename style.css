@@ -26,6 +26,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: #fff;
+    text-align: center;
 }
 
 .wrapper-width {
@@ -97,7 +98,7 @@ hr {
     padding-bottom: 20px;
 }
 
-.description_main {
+.subtitle_main {
     max-width: 829px;
     font-size: 48px;
     font-weight: 800;
@@ -106,6 +107,98 @@ hr {
 
 .button_main:hover {
     animation: jump 1s;
+}
+
+/* ABOUT ONE */
+
+.about-one-color {
+    background: #e5e5e5;
+    text-align: center;
+}
+
+.section_about-one {
+    padding: 105px 0;
+}
+
+.title_about {
+    max-width: 739px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #323232;
+}
+
+.subtitle_about {
+    max-width: 730px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    color: #999;
+}
+
+.wrapper-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.services-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper_services-element__logo {
+    position: relative;
+    margin-right: 52px;
+}
+.wrapper_services-element__logo::before {
+    position: absolute;
+    content: '';
+    top: -50%;
+    left: -50%;
+    width: 90px;
+    height: 90px;
+    background-color: inherit;
+    border: 1px solid #4985ff;
+    border-radius: 100%;
+    transform: translate(-5px, -5px);
+}
+.wrapper_services-element__logo::after {
+    position: absolute;
+    content: '';
+    top: -50%;
+    left: -50%;
+    width: 110px;
+    height: 110px;
+    background-color: inherit;
+    border: 1px solid #cfcdcd;
+    border-radius: 100%;
+    transform: translate(-15px, -15px);
+}
+
+.services-elem__logo {
+    vertical-align: top;
+}
+
+.description_services-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 69px;
+}
+
+.title_services-element {
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.subtitle_services-element {
+    max-width: 222px;
+    text-align: left;
+    color: #999;
 }
 
 @keyframes jump {
