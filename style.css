@@ -34,6 +34,10 @@ body {
     margin: 0 auto;
 }
 
+.wrapper-width_plus-padding {
+    padding-bottom: 85px;
+}
+
 /* HEADER */
 .header {
     display: flex;
@@ -299,6 +303,47 @@ body {
     line-height: 25.36px;
     color: #999;
 }
+
+/* ABOUT THREE*/
+.about-three-color {
+    background: linear-gradient(to bottom, #5f12d0 50%, #e5e5e5 50%);
+}
+
+.wrapper_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.title_about-three {
+    max-width: 540px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.description_about-two_width {
+    max-width: 350px;
+}
+
+.services-picture {
+    vertical-align: top;
+}
+
+.title_services {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title_services>span {
+    color: #4985ff;
+}
+
+
 
 @keyframes jump {
     0% {
