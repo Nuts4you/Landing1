@@ -75,10 +75,16 @@ body {
 }
 
 /* HR */
-hr {
+.hr-for-header {
     border: none;
     height: 1px;
     background: #a1a1a1;
+}
+
+.hr-for-about {
+    border: none;
+    height: 1px;
+    background: #e0e0e0;
 }
 
 /* MAIN */
@@ -113,14 +119,14 @@ hr {
 
 .about-one-color {
     background: #e5e5e5;
-    text-align: center;
 }
 
 .section_about-one {
     padding: 105px 0;
+    text-align: center;
 }
 
-.title_about {
+.title_about-one {
     max-width: 739px;
     margin: 0 auto;
     font-size: 36px;
@@ -129,11 +135,12 @@ hr {
     color: #323232;
 }
 
-.subtitle_about {
+.subtitle_about-one {
     max-width: 730px;
     margin: 0 auto;
     padding-bottom: 70px;
     color: #999;
+    font-weight: 400;
 }
 
 .wrapper-services {
@@ -193,11 +200,103 @@ hr {
 .title_services-element {
     text-align: left;
     padding-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .subtitle_services-element {
     max-width: 222px;
+    font-size: 14px;
+    font-weight: 400;
     text-align: left;
+    color: #999;
+}
+
+/* ABOUT TWO PART ONE*/
+.about-two-color {
+    background: #f6f6f8;
+    text-align: center;
+}
+
+.article_about-two-part-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.description_about-two {
+    text-align: left;
+}
+
+.title_about-two {
+    max-width: 424px;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: #323232;
+}
+
+.subtitle_about-two {
+    max-width: 489px;
+    padding-bottom: 30px;
+    color: #999;
+    font-weight: 400;
+}
+
+.link_about-two {
+    font-weight: 500;
+}
+
+.wrapper_picture-about-two {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.picture-about-two {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    vertical-align: top;
+}
+
+/* ABOUT TWO PART TWO*/
+.article_about-two-part-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.project-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrrapper_project-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture-project-element {
+    vertical-align: top;
+}
+
+.number-projects {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+}
+
+.title_project-element {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.36px;
     color: #999;
 }
 
